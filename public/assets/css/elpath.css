@@ -1,9 +1,4 @@
-/* Elementpath css */
 
-/* 
-el_01 
-color
-*/
 .color_blue {
     color: #7f27d8;
 }
@@ -314,10 +309,7 @@ Font size
 .fs_200 {
     font-size: 200px;
 }
-/* 
-el_08 
-Font wieght
-*/
+
 .fw_light {
     font-weight: 300;
 }
@@ -336,20 +328,14 @@ Font wieght
 .fw_exbold {
     font-weight: 800;
 }
-/* 
-el_09 
-Float
-*/
+
 .float_left {
     float: left;
 }
 .float_right {
     float: right;
 }
-/* 
-el_10 
-Width
-*/
+
 .w_0 {
     width: 0;
 }

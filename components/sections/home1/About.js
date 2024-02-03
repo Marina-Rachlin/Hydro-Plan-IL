@@ -58,26 +58,18 @@ export default function About() {
             </div>
 
             <div className="col-lg-6 col-md-12 col-sm-12 image-column">
-              {/* <div className="image_block_three">
-                <div className="image-box p_relative pr_60">
-                  <figure className="image">
-                    <img src="assets/images/ofri.jpg" alt="" />
-                  </figure>
-                  <div className="image-text">
-                    <h2 style={{ color: "white", fontWeight: "600" }}>
-                      מאז 2022
-                    </h2>
-                  </div>
-                </div>
-              </div> */}
+        
               <div className="image_block_two">
                 <div className="image-box mr_80">
                   <figure className="image">
                     <img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706790011/hydro-plan/xnehafcvj3xzu8n1vnev.jpg" alt="" />
-                  </figure>
-                  <div className="image-content">
+                    <div className="image-content">
                     <h3 style={{color: 'white'}}>מומחיות בתכנון ניהול נגר ליוזמות נדל׳׳ן  </h3>
                   </div>
+                  </figure>
+                  {/* <div className="image-content">
+                    <h3 style={{color: 'white'}}>מומחיות בתכנון ניהול נגר ליוזמות נדל׳׳ן  </h3>
+                  </div> */}
                 </div>
               </div>
             </div>
