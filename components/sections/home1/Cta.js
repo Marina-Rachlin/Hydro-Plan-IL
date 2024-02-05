@@ -5,7 +5,7 @@ export default function Cta() {
     return (
         <>            
             <section className="cta-section p_relative">
-                <div className="bg-layer parallax-bg" data-parallax={{ y: 100 }} style={{ backgroundImage: 'url(https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706790131/hydro-plan/jinmlrveyo6mvk7a5cyj.png)' }}></div>
+                <div className="bg-layer parallax-bg" data-parallax={{ y: 100 }} style={{ backgroundImage: 'url(/assets/images/image.png' }}></div>
                 <div className="auto-container">
                     <div className="inner-box" style={{direction: 'rtl'}}>
                         <h2>לשיחת ייעוץ ראשונית <span>חייגו עכשיו </span> </h2>

@@ -28,7 +28,7 @@ export default function Home() {
               <div className="row clearfix">
                 <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side">
                   <div className="service-sidebar mr_40">
-                    <SidebarNav current={"niul-nagar"} />
+                    <SidebarNav current={"runoff-management-at-the-permit-stage"} />
                     <SidebarContact />
                   </div>
                 </div>

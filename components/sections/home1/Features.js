@@ -50,7 +50,7 @@ export default function Features() {
                             <figure className="image-box" ><img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706786663/hydro-plan/prdrewjxzo4bzqrosi6j.png" alt="" style={{maxHeight: '200px'}} /></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-9"></i></div>
-                            <h3><Link href="/niul-nagar">מסמך ניהול נגר בשלב ההיתר</Link></h3>
+                            <h3><Link href="/runoff-management-at-the-permit-stage">מסמך ניהול נגר בשלב ההיתר</Link></h3>
                             <p>שיפור יוזמות נדל"ן באמצעות תיעוד ניהול יעיל של נגר</p>
                             <p style={{visibility: 'hidden'}}>hkjnlkml3</p>
                             </div>
