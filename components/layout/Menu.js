@@ -16,7 +16,7 @@ export default function Menu() {
             <li><Link href="/">דף הבית</Link></li>
                 <li className="dropdown"><Link href="#">שירותים</Link>
                     <ul>
-                        <li><Link href="/niul-nagar">מסמכי ניהול נגר ליוזמות נדל׳׳ן בשלב ההיתור</Link></li>
+                        <li><Link href="/runoff-management-at-the-permit-stage">מסמכי ניהול נגר ליוזמות נדל׳׳ן בשלב ההיתור</Link></li>
                         <li><Link href="/green-construction">חוות דעת הידרולוגית לתקן בנייה ירוקה</Link></li>
                         <li><Link href="/pikuah">דו׳׳ח פיקוח עליון</Link></li>
                     </ul>
