@@ -26,7 +26,6 @@ export default function Home() {
           <section className="service-details p_relative">
             <div className="auto-container">
               <div className="row clearfix">
-
                 <div className="col-lg-4 col-md-12 col-sm-12 sidebar-side">
                   <div className="service-sidebar mr_40">
                     <SidebarNav current={"niul-nagar"} />
@@ -34,10 +33,11 @@ export default function Home() {
                   </div>
                 </div>
 
-
-                <div className="col-lg-8 col-md-12 col-sm-12 content-side" style={{ direction: "rtl" }}>
+                <div
+                  className="col-lg-8 col-md-12 col-sm-12 content-side"
+                  style={{ direction: "rtl" }}
+                >
                   <div className="service-details-content">
-
                     <div className="content-one mb_30">
                       <div className="video-box">
                         <video
@@ -72,7 +72,7 @@ export default function Home() {
                           במגרשי בנייה וכבישים. איטום פני הקרקע מונע ממי גשמים
                           לחדור ולחדש את מאגרי המים התת-קרקעיים, האקוויפרים.
                         </p>
-                        <strong style={{color: '#153b5b', marginBottom: '20px'}}>
+                        <strong style={{ color: "#153b5b" }}>
                           הירידה בהעשרת מי התהום באופן טבעי בישראל מעוררת מספר
                           היבטים מדאיגים:
                         </strong>
@@ -107,50 +107,25 @@ export default function Home() {
                           </ul>
                         </ul> */}
 
-                        <ul className="list-style-one" >
-  <li>שאיבת המים ממאגרי מי התהום הצטמצמה בעשורים האחרונים. משק המים הופך תלוי יותר ויותר במפעלי התפלת מי הים, להם מחירים גבוהים ביהבטים כלכליים, סביבתיים ובריאותיים.</li>
-  <li>תהליך איטום הקרקע מגביר.</li>
-  <li>הידלדלות מאגרי מי התהום גורמים לירידה באיכות מי התהום כתוצאה מעלייה בריכוז המזהמים והמלחים באקוויפרים.</li>
-</ul>
+                        <ul
+                          className="list-style-one"
+                          style={{ marginTop: "20px" }}
+                        >
+                          <li>
+                            שאיבת המים ממאגרי מי התהום הצטמצמה בעשורים האחרונים.
+                            משק המים הופך תלוי יותר ויותר במפעלי התפלת מי הים,
+                            להם מחירים גבוהים ביהבטים כלכליים, סביבתיים
+                            ובריאותיים.
+                          </li>
+                          <li>תהליך איטום הקרקע מגביר.</li>
+                          <li>
+                            הידלדלות מאגרי מי התהום גורמים לירידה באיכות מי
+                            התהום כתוצאה מעלייה בריכוז המזהמים והמלחים
+                            באקוויפרים.
+                          </li>
+                        </ul>
                       </div>
                     </div>
-
-
-
-                    {/* <div className="content-two mb_90">
-                      <div className="row clearfix">
-                        <div className="col-lg-12 col-md-12 col-sm-12 text-column">
-                          <div className="text-box">
-                            <p>
-                              הירידה בהעשרת מי התהום באופן טבעי בישראל מעוררת
-                              מספר היבטים מדאיגים:
-                            </p>
-                            <ul className="list-style-one clearfix">
-                              <li>
-                                שאיבת המים ממאגרי מי התהום הצטמצמה בעשורים
-                                האחרונים. משק המים הופך תלוי יותר ויותר במפעלי
-                                התפלת מי הים, להם מחירים גבוהים ביהבטים כלכליים,
-                                סביבתיים ובריאותיים.
-                              </li>
-                              <li>תהליך איטום הקרקע מגביר.</li>
-                              <li>
-                                הידלדלות מאגרי מי התהום גורמים לירידה באיכות מי
-                                התהום כתוצאה מעלייה בריכוז המזהמים והמלחים
-                                באקוויפרים.
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                        <div className="col-lg-6 col-md-6 col-sm-12 image-column">
-                          <figure className="image-box">
-                            <img
-                              src="assets/images/service/service-9.jpg"
-                              alt=""
-                            />
-                          </figure>
-                        </div>
-                      </div>
-                    </div> */}
                     <div className="content-three mb_85">
                       <div className="text mb_100">
                         <p>
@@ -201,6 +176,7 @@ export default function Home() {
                         </p>
                       </div>
                     </div>
+
                   </div>
                 </div>
               </div>

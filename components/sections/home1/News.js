@@ -68,11 +68,10 @@ export default function News() {
                         <div className="news-block-one wow fadeInUp animated" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div className="inner-box">
                             <div className="image-box">
-                            <figure className="image"><Link href="/blog-details"><img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706795159/hydro-plan/kd1yifowijexe9azmlom.jpg" alt="Article 1" style={{ maxHeight: '208px'}}/></Link></figure>
+                            <figure className="image"><Link href="/planning-manager-policy-document"><img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706795159/hydro-plan/kd1yifowijexe9azmlom.jpg" alt="Article 1" style={{ maxHeight: '208px'}}/></Link></figure>
                             </div>
                             <div className="lower-content">
-                            <h3 style={{fontSize: '20px'}}><Link href="/blog-details">מסמך מדיניות מנהל התכנון</Link></h3>
-                            {/* <p>Amet minim mollit no duis sit enim aliqua dolor do amet officia.</p> */}
+                            <h3 style={{fontSize: '20px'}}><Link href="/planning-manager-policy-document">מסמך מדיניות מנהל התכנון</Link></h3>
                             </div>
                         </div>
                         </div>
@@ -81,10 +80,10 @@ export default function News() {
                         <div className="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                         <div className="inner-box">
                             <div className="image-box">
-                            <figure className="image" ><Link href="/blog-details"><img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706794956/hydro-plan/m3zrfaalvkid1baas6pj.jpg" alt="Article 2" style={{ maxHeight: '208px'}} /></Link></figure>
+                            <figure className="image" ><Link href="/principles-of-water-authority-runoff-management-guidelines"><img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706794956/hydro-plan/m3zrfaalvkid1baas6pj.jpg" alt="Article 2" style={{ maxHeight: '208px'}} /></Link></figure>
                             </div>
                             <div className="lower-content">
-                            <h3 style={{fontSize: '20px'}}><Link href="/blog-details">עקרונות הנחיות ניהול נגר רשות המים 2021</Link></h3>
+                            <h3 style={{fontSize: '20px'}}><Link href="/principles-of-water-authority-runoff-management-guidelines">עקרונות הנחיות ניהול נגר רשות המים 2021</Link></h3>
                             </div>
                         </div>
                         </div>

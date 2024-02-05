@@ -14,10 +14,6 @@ export default function About() {
                     <h2>עופרי אורגד </h2>
                   </div>
                   <div className="text mb_35">
-                    {/* <p>
-                      בוגרת תואר ראשון במדעי כדור הארץ, תואר ממוקד במדעים
-                      אטמוספיריים, באוניברסיטה העברית בירושלים. B.Sc.
-                    </p> */}
                     <p>
                       בוגרת תואר ראשון במדעי כדור הארץ, תואר ממוקד במדעים
                       אטמוספיריים, באוניברסיטה העברית בירושלים. סיימה בהצטיינות
@@ -36,20 +32,18 @@ export default function About() {
                       <div className="icon-box">
                         <i className="icon-11"></i>
                       </div>
-                      <h3>ממוקד פתרון</h3>
+                      <h3>יעוץ ממוקד פתרון</h3>
                       <p>
-                        Lorem ipsum dolor sit amet tempus consectetur
-                        adipiscing.
+                      להידרו-פלאן ארסנל רחב של פתרונות ניהול נגר עבור מגוון של אילוצים שעשויים להתקיים בענף יזמות הנדל"ן.
                       </p>
                     </div>
                     <div className="single-item">
                       <div className="icon-box">
                         <i className="icon-11"></i>
                       </div>
-                      <h3>הצלחה 99.99%</h3>
+                      <h3>תפרושת ארצית</h3>
                       <p>
-                        Lorem ipsum dolor sit amet tempus consectetur
-                        adipiscing.
+                      להידרו-פלאן רקורד מוכח בתפרוסת ארצית רחבה כולל אזור יהודה ושומרון.
                       </p>
                     </div>
                   </div>
@@ -62,7 +56,7 @@ export default function About() {
               <div className="image_block_two">
                 <div className="image-box mr_80">
                   <figure className="image">
-                    <img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706790011/hydro-plan/xnehafcvj3xzu8n1vnev.jpg" alt="" />
+                    <img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1707124654/hydro-plan/jlgzjjwpdmuaci935gi3.jpg" alt="" />
                     <div className="image-content">
                     <h3 style={{color: 'white'}}>מומחיות בתכנון ניהול נגר ליוזמות נדל׳׳ן  </h3>
                   </div>

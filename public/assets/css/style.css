@@ -2587,12 +2587,12 @@
       margin-bottom: 30px;
     }
   
-    .service-details-content .content-four .download-list li button{
+    /* .service-details-content .content-four .download-list li button{
       position: relative;
       top: 0px;
       right: 0px;
       margin-top: 10px;
-    }
+    } */
   
     .team-page-section{
       padding: 63px 0px 40px 0px;
@@ -3331,7 +3331,7 @@
   
   .service-details-content .content-four .download-list li .icon-box{
     position: absolute;
-    left: 35px;
+    right: 35px;
     top: 32px;
     font-size: 36px;
   }
@@ -3342,18 +3342,20 @@
     line-height: 28px;
     font-weight: 600;
     margin-bottom: 0px;
+      margin-right: 50px;
   }
   
   .service-details-content .content-four .download-list li span{
     position: relative;
     display: block;
+    margin-right: 50px;
   }
   
   .service-details-content .content-four .download-list li button{
     position: absolute;
     top: 35px;
-    right: 35px;
-    background: rgba(222, 44, 44, 0.1);
+    left: 35px;
+    background: #43AEE3;
     font-size: 15px;
     line-height: 24px;
     font-family: 'Poppins', sans-serif;
@@ -3363,10 +3365,11 @@
     padding: 4px 23px 2px 23px;
     border-radius: 30px;
     transition: all 500ms ease;
+    color: white;
   }
   
   .service-details-content .content-four .download-list li button:hover{
-    color: #fff;
+    background-color: #241e2f;
   }
   
   .service-details-content .content-four h3{
