@@ -3581,7 +3581,7 @@
 }
 
 .parallax-bg {
-  background-size: cover; /* or try 'auto' to maintain the image's aspect ratio */
+  background-size: auto; /* or try 'auto' to maintain the image's aspect ratio */
 }
 
 
