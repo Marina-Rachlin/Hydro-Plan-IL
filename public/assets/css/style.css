@@ -11,8 +11,8 @@
 @import url('elements-css/banner.css');
 @import url('elements-css/feature.css');
 @import url('elements-css/about.css');
-@import url('elements-css/service.css');
-@import url('elements-css/service-details.css');
+/* @import url('elements-css/service.css');
+@import url('elements-css/service-details.css'); */
 @import url('elements-css/expertise.css');
 @import url('elements-css/news.css');
 @import url('elements-css/page-title.css');
@@ -3479,11 +3479,8 @@
     .service-details-content .content-one .video-box .video-inner {
       top: 40%;
     }
-    
   }
 
-  
-  
   @media screen and (max-width: 768px) {
     .image_block_two .image-box .image {
       margin-top: 30px;
@@ -3581,6 +3578,10 @@
   .news-block-one .inner-box{
     max-width: 430px;
   }
+}
+
+.parallax-bg {
+  background-size: cover; /* or try 'auto' to maintain the image's aspect ratio */
 }
 
 

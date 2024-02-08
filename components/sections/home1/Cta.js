@@ -4,15 +4,15 @@ import Link from "next/link"
 export default function Cta() {
     return (
         <>            
-          <section className="cta-section p_relative">
-                <div className="bg-layer parallax-bg" data-parallax={{ y: 100 }} style={{ backgroundImage: 'url(/assets/images/breadcrumb.webp' }}></div>
+         <section className="cta-section p_relative">
+                <div className="bg-layer parallax-bg" data-parallax={{ y: 100 }} style={{ backgroundImage: 'url(/assets/images/cta.webp' }}></div>
                 <div className="auto-container">
                     <div className="inner-box" style={{direction: 'rtl'}}>
                         <h2>לשיחת ייעוץ ראשונית <span>חייגו עכשיו </span> </h2>
                         <h3 style={{direction:'ltr',textAlign: 'end'}}><Link href="tel:912136660027">053 498 6071</Link></h3>
                     </div>
                 </div>
-            </section>  
+            </section> 
 
         </>
     )
