@@ -88,6 +88,19 @@ export default function News() {
                         </div>
                         </div>
                     </div>
+
+                    <div className="col-lg-4 col-md-6 col-sm-12 news-block">
+                        <div className="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
+                        <div className="inner-box">
+                            <div className="image-box">
+                            <figure className="image" ><Link href="/green_buildings"><img src="/assets/images/article3.webp" alt="Article 3" style={{ maxHeight: '208px'}} /></Link></figure>
+                            </div>
+                            <div className="lower-content">
+                            <h3 style={{fontSize: '20px'}}><Link href="/green_buildings">בנייה בת קיימא. פרק הידרולוגי 3.4</Link></h3>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
                     </div>
                 </div>
             </section>

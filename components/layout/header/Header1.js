@@ -6,25 +6,6 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSide
     return (
         <>
             <header className={` rtl main-header header-style-one ${scroll ? "fixed-header" : ""}`}>
-                {/* Header Top */}
-                {/* <div className="header-top">
-                    <div className="auto-container">
-                        <div className="top-inner">
-                        <div className="top-left">
-                            <ul className="info clearfix">
-                            <li><i className="icon-2"></i><Link href="tel:912136660027">+91-213-666-0027</Link></li>
-                            <li><i className="icon-3"></i><Link href="mailto:info@example.com">info@example.com</Link></li>
-                            </ul>
-                        </div>
-                        <div className="top-right">
-                            <ul className="social-links clearfix">
-                            <li><Link href="#"><i className="fab fa-linkedin-in"></i></Link></li>
-                            </ul>
-                        </div>
-                        </div>
-                    </div>
-                </div> */}
-                {/* Header Upper */}
                 <div className=" rtl header-lower">
                     <div className="auto-container">
                         <div className="outer-box">

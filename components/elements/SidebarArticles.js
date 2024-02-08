@@ -25,6 +25,14 @@ const SidebarArticles = ({ current }) => {
               עקרונות הנחיות ניהול נגר רשות המים 2021
             </Link>
           </li>
+          <li>
+            <Link
+              href="/green_buildings"
+              className={`${current === "green_buildings" ? "current" : ""}`}
+            >
+              עקרונות הנחיות ניהול נגר רשות המים 2021
+            </Link>
+          </li>
         </ul>
       </div>
     </>

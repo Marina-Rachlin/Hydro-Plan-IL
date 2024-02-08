@@ -45,7 +45,7 @@ export default function Home() {
                       </figure>
                       <div className="text">
                         <h2>מסמך מדיניות מנהל התכנון</h2>
-                        <p>
+                        {/* <p>
                           {" "}
                           Lorem Ipsum is simply dummy text of the printing and
                           typesetting industry. Lorem Ipsum has been the
@@ -59,7 +59,7 @@ export default function Home() {
                           passages, and more recently with desktop publishing
                           software like Aldus PageMaker including versions of
                           Lorem Ipsum.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                     <div className="content-four">

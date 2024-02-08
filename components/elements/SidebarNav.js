@@ -8,8 +8,8 @@ const SidebarNav = ({current}) => {
     <h3 style={{ textAlign: "end" }}>כל השירותים</h3>
     <ul className="category-list clearfix">
       <li>
-        <Link href="/runoff-management-at-the-permit-stage" className={`${current === 'runoff-management-at-the-permit-stage' ? 'current' : ''}`}>
-          מסמכי ניהול נגר ליוזמות נדל׳׳ן בשלב ההיתור
+        <Link href="/run_off_consulting" className={`${current === 'runoff-management-at-the-permit-stage' ? 'current' : ''}`}>
+        מסמך ניהול נגר בשלב ההיתר
         </Link>
       </li>
       <li>

@@ -62,10 +62,10 @@ export default function MobileMenu({
                   >
                     <li>
                       <Link
-                        href="/runoff-management-at-the-permit-stage"
+                        href="/run_off_consulting"
                         onClick={handleMobileMenu}
                       >
-                        מסמכי ניהול נגר ליוזמות נדל׳׳ן בשלב ההיתור
+                        מסמך ניהול נגר בשלב ההיתר
                       </Link>
                     </li>
                     <li>
