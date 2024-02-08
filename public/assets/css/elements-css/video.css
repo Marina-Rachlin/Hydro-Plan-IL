@@ -35,7 +35,6 @@
 	top: 0px;
 	opacity: 0.3;
 }
-
 .video-section .inner-container .video-btn a{
 	position: relative;
 	display: inline-block;
@@ -46,8 +45,11 @@
 	cursor: pointer;
 }
 
-.video-section .inner-container .video-btn a:hover{
-
+.video-section .inner-container .video-btn a{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
 }
 
 .video-section .inner-container .video-btn a:before,
