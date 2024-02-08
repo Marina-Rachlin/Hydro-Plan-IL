@@ -37,7 +37,7 @@ export default function Banner2() {
             <section className="banner-style-two p_relative centred">
                 <Swiper {...swiperOptions} className="banner-carousel">                    
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="image-layer p_absolute" style={{ backgroundImage: "url(https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706742635/hydro-plan/qusldn4zqlrufex1xwmh.jpg)" }}></div>
+                        <div className="image-layer p_absolute" style={{ backgroundImage: "url(/assets/images/banner1.webp)" }}></div>
                         <div className="auto-container">
                             <div className="content-box">
                             <h2>Hydro-Plan IL</h2>
@@ -49,7 +49,7 @@ export default function Banner2() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="slide-item p_relative">
-                        <div className="image-layer p_absolute" style={{ backgroundImage: "url(https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706741505/hydro-plan/ednmwk79twhltmi28dmw.jpg)" }}></div>
+                        <div className="image-layer p_absolute" style={{ backgroundImage: "url(/assets/images/banner2.webp)" }}></div>
                         <div className="auto-container">
                             <div className="content-box">
                             <h2>Hydro-Plan IL</h2>
