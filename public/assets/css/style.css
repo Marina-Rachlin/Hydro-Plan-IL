@@ -3426,6 +3426,8 @@
     margin-bottom: 22px;
   }
 
+
+
   
   
   
@@ -3433,8 +3435,7 @@
   
   
   
-  
-  
+
   
   
   
@@ -3468,7 +3469,7 @@
   
   .service-details-content .content-one .video-box .video-inner {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
