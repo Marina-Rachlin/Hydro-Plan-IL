@@ -52,7 +52,7 @@ export default function MobileMenu({
                     isActive.key == 2 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/#" onClick={handleMobileMenu}>שירותים</Link>
+                  <Link href="/#services" onClick={handleMobileMenu}>שירותים</Link>
                   <ul
                     style={{
                       display: `${isActive.key == 2 ? "block" : "none"}`,
@@ -89,7 +89,7 @@ export default function MobileMenu({
           </div>
           {/*Social Links*/}
           <div className="social-links">
-            <ul className="clearfix">
+            <ul className="clearfix" style={{marginTop: "15px"}}>
               <li>
                 <Link href="https://www.linkedin.com/in/ofri-orgad-62382b63/" onClick={handleMobileMenu}>
                   <span className="fab fa-linkedin-in" />
