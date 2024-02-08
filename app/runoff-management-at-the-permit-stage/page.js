@@ -42,7 +42,7 @@ export default function Home() {
                       <div className="video-box">
                         <video
                           className="image-box"
-                          src="https://res.cloudinary.com/dmdv8s9mz/video/upload/f_auto:video,q_auto/v1/hydro-plan/tfdg7wtwl7nh5htzn7nb"
+                          src="https://res.cloudinary.com/dmdv8s9mz/video/upload/f_auto:video,q_auto/v1/vc_h264/hydro-plan/tfdg7wtwl7nh5htzn7nb"
                         />
                         <div className="video-inner">
                           <div className="video-btn">
