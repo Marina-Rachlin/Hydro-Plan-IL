@@ -5,7 +5,7 @@ export default function Cta() {
     return (
         <>            
           <section className="cta-section p_relative">
-                <div className="bg-layer parallax-bg" data-parallax={{ y: 100 }} style={{ backgroundImage: 'url(/assets/images/cta4.webp' }}></div>
+                <div className="bg-layer parallax-bg" data-parallax={{ y: 100 }} style={{ backgroundImage: 'url(/assets/images/breadcrumb.webp' }}></div>
                 <div className="auto-container">
                     <div className="inner-box" style={{direction: 'rtl'}}>
                         <h2>לשיחת ייעוץ ראשונית <span>חייגו עכשיו </span> </h2>
