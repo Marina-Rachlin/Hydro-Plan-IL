@@ -1,17 +1,9 @@
 import Link from "next/link"
-// import { useRouter } from "next/router"
 
 export default function Menu() {
-    // const router = useRouter()
 
     return (
         <>
-
-            {/* <ul className="sub-menu">
-                <Link className={router.pathname == "/" ? "active" : ""}>Home Default</Link>
-                <Link className={router.pathname == "/index-2" ? "active" : ""}>Home Interior</Link>
-            </ul> */}
-
             <ul className="navigation clearfix">
             <li><Link href="/">דף הבית</Link></li>
                 <li className="dropdown"><Link href="#">שירותים</Link>

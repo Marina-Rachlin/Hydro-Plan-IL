@@ -59,7 +59,7 @@ export default function MobileMenu({
                     }}
                   >
                     <li>
-                      <Link href="/niul-nagar">
+                      <Link href="/runoff-management-at-the-permit-stage">
                         מסמכי ניהול נגר ליוזמות נדל׳׳ן בשלב ההיתור
                       </Link>
                     </li>
@@ -78,7 +78,7 @@ export default function MobileMenu({
                     }
                     onClick={() => handleToggle(2)}
                   >
-                    <span className="fa fa-angle-right" />
+                    <span className="fa fa-angle-left" />
                   </div>
                 </li>
                 <li>
