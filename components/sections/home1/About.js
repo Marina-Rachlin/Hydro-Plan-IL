@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -55,15 +56,12 @@ export default function About() {
         
               <div className="image_block_two">
                 <div className="image-box mr_80">
-                  <figure className="image">
-                    <img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1707124654/hydro-plan/jlgzjjwpdmuaci935gi3.jpg" alt="" />
+                  <figure className="image figure ">
+                    <img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1707124654/hydro-plan/jlgzjjwpdmuaci935gi3.jpg" alt="Photo" />
                     <div className="image-content">
                     <h3 style={{color: 'white'}}>מומחיות בתכנון ניהול נגר ליוזמות נדל׳׳ן  </h3>
                   </div>
                   </figure>
-                  {/* <div className="image-content">
-                    <h3 style={{color: 'white'}}>מומחיות בתכנון ניהול נגר ליוזמות נדל׳׳ן  </h3>
-                  </div> */}
                 </div>
               </div>
             </div>

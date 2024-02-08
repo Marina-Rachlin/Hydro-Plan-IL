@@ -312,6 +312,18 @@
 	color: #fff;
 }
 
+.figure img {
+	width: 100%; /* Make image fill the container */
+	height: 100%; /* Set a fixed height or use auto; */
+	object-fit: cover; /* Cover the container without losing the aspect ratio */
+  }
+  
+  @media (max-width: 768px) { /* Adjust breakpoint as needed */
+	.figure img {
+	  height: 500px !important; /* Example fixed height for smaller screens */
+	}
+  }
+
 
 
 
