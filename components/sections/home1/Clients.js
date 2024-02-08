@@ -10,27 +10,27 @@ export default function Clients() {
                 <div className="inner-box">
                     <figure className="clients-logo">
                         <Link href="/index-3">
-                            <img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706796367/hydro-plan/r98jj5frkfszg2hhid4k.png" alt="" />
+                            <img src="/assets/images/client1.webp" alt="" />
                         </Link>
                     </figure>
                     <figure className="clients-logo">
                         <Link href="/index-3">
-                            <img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706796423/hydro-plan/snpmnwgvhimtxctt90tb.png" alt="" />
+                            <img src="/assets/images/client2.webp" alt="" />
                         </Link>
                     </figure>
                     <figure className="clients-logo">
                         <Link href="/index-3">
-                            <img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706796475/hydro-plan/xdp9ey8ie5waai8lef7l.png" alt="" />
+                            <img src="/assets/images/client3.webp" alt="" />
                         </Link>
                     </figure>
                     <figure className="clients-logo">
                         <Link href="/index-3">
-                            <img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706796515/hydro-plan/sg9tpad708guxmqsh1fw.png" alt="" />
+                            <img src="/assets/images/client4.webp" alt="" />
                         </Link>
                     </figure>
                     <figure className="clients-logo">
                         <Link href="/index-3">
-                            <img src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706796565/hydro-plan/cirvohvqx4zyzoboujme.png" alt="" />
+                            <img src="/assets/images/client5.webp" alt="" />
                         </Link>
                     </figure>
                 </div>
