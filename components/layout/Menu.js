@@ -14,7 +14,8 @@ export default function Menu() {
                         <li><Link href="/pikuah">דו׳׳ח פיקוח עליון</Link></li>
                     </ul>
                 </li>
-                <li><Link href="/#articles">מאמרים</Link></li>
+                <li><Link href="/#articles">חדשות ומאמרים</Link></li>
+                <li><Link href="/#clients">בין לקוחותינו</Link></li>
                 <li><Link href="/contact"> צרו קשר</Link></li>
             </ul>
         </>

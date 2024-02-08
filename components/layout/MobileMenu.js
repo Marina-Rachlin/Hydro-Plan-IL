@@ -105,7 +105,13 @@ export default function MobileMenu({
 
                 <li>
                   <Link href="/#articles" onClick={handleMobileMenu}>
-                    מאמרים
+                    חדשות ומאמרים
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href="/#clients" onClick={handleMobileMenu}>
+                    בין לקוחותינו
                   </Link>
                 </li>
 

@@ -5,7 +5,7 @@ export default function Clients() {
     return (
         <>
             
-        <section className="clients-section p_relative bg-color-2">
+        <section className="clients-section p_relative bg-color-2" id="clients">
             <div className="auto-container">
                 <div className="inner-box">
                     <figure className="clients-logo">
