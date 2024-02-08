@@ -43,7 +43,7 @@ export default function Banner2() {
                             <h2>Hydro-Plan IL</h2>
                             <p> ייעוץ הידרולוגי ליזמות נדל׳׳ן</p>
                             <div className="btn-box">
-                                <Link href="/about-us" className="theme-btn-one" >לגלות יותר פרטים  </Link>
+                                <Link href="/#services" className="theme-btn-one" >לגלות יותר פרטים  </Link>
                             </div>
                             </div> 
                         </div>
@@ -55,7 +55,7 @@ export default function Banner2() {
                             <h2>Hydro-Plan IL</h2>
                             <p> ייעוץ הידרולוגי ליזמות נדל׳׳ן</p>
                             <div className="btn-box">
-                                <Link href="/about-us" className="theme-btn-one">לגלות יותר פרטים </Link>
+                                <Link href="/#services" className="theme-btn-one">לגלות יותר פרטים </Link>
                             </div>
                             </div>  
                         </div>
