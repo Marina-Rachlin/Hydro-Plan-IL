@@ -5,7 +5,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
         <>
             
             <section className="page-title centred">
-                <div className="bg-layer" style={{ backgroundImage: 'url(https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706789350/hydro-plan/qv0skabtgb9puvldy2es.jpg)' }}></div>
+                <div className="bg-layer" style={{ backgroundImage: 'url(/assets/images/breadcrumb.webp)' }}></div>
                 <div className="auto-container">
                     <div className="content-box">
                         <h1>{breadcrumbTitle}</h1>

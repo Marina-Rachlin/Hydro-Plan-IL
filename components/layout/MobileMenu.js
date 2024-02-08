@@ -42,34 +42,44 @@ export default function MobileMenu({
               id="navbarSupportedContent"
             >
               <ul className="navigation clearfix">
-              <li>
-                      <Link href="/" onClick={handleMobileMenu}>
-                        דף הבית
-                      </Link>
-                    </li>
+                <li>
+                  <Link href="/" onClick={handleMobileMenu}>
+                    דף הבית
+                  </Link>
+                </li>
                 <li
                   className={
                     isActive.key == 2 ? "dropdown current" : "dropdown"
                   }
                 >
-                  <Link href="/#services" onClick={handleMobileMenu}>שירותים</Link>
+                  <Link href="/#services" onClick={handleMobileMenu}>
+                    שירותים
+                  </Link>
                   <ul
                     style={{
                       display: `${isActive.key == 2 ? "block" : "none"}`,
                     }}
                   >
                     <li>
-                      <Link href="/runoff-management-at-the-permit-stage" onClick={handleMobileMenu}>
+                      <Link
+                        href="/runoff-management-at-the-permit-stage"
+                        onClick={handleMobileMenu}
+                      >
                         מסמכי ניהול נגר ליוזמות נדל׳׳ן בשלב ההיתור
                       </Link>
                     </li>
                     <li>
-                      <Link href="/green-construction" onClick={handleMobileMenu}>
+                      <Link
+                        href="/green-construction"
+                        onClick={handleMobileMenu}
+                      >
                         חוות דעת הידרולוגית לתקן בנייה ירוקה
                       </Link>
                     </li>
                     <li>
-                      <Link href="/pikuah" onClick={handleMobileMenu}>דו׳׳ח פיקוח עליון</Link>
+                      <Link href="/pikuah" onClick={handleMobileMenu}>
+                        דו׳׳ח פיקוח עליון
+                      </Link>
                     </li>
                   </ul>
                   <div
@@ -82,22 +92,52 @@ export default function MobileMenu({
                   </div>
                 </li>
                 <li>
-                  <Link href="/contact" onClick={handleMobileMenu}>צור קשר</Link>
+                  <Link href="/#about" onClick={handleMobileMenu}>
+                    אודות
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href="/#cta" onClick={handleMobileMenu}>
+                    הצעת מחיר מהירה
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href="/#articles" onClick={handleMobileMenu}>
+                    מאמרים
+                  </Link>
+                </li>
+
+                <li>
+                  <Link href="/contact" onClick={handleMobileMenu}>
+                    צור קשר
+                  </Link>
                 </li>
               </ul>
             </div>
           </div>
+
           {/*Social Links*/}
           <div className="social-links">
-            <ul className="clearfix" style={{marginTop: "15px"}}>
+            <ul className="clearfix" style={{ marginTop: "15px" }}>
               <li>
-                <Link href="https://www.linkedin.com/in/ofri-orgad-62382b63/" onClick={handleMobileMenu}>
+                <Link
+                  href="https://www.linkedin.com/in/ofri-orgad-62382b63/"
+                  onClick={handleMobileMenu}
+                >
                   <span className="fab fa-linkedin-in" />
                 </Link>
               </li>
               <li>
-                <Link href="https://www.instagram.com/hydro.plan.il/" onClick={handleMobileMenu}>
-                  <span className="fab fa-instagram"  style={{marginTop: "2px"}}/>
+                <Link
+                  href="https://www.instagram.com/hydro.plan.il/"
+                  onClick={handleMobileMenu}
+                >
+                  <span
+                    className="fab fa-instagram"
+                    style={{ marginTop: "2px" }}
+                  />
                 </Link>
               </li>
             </ul>
