@@ -49,7 +49,7 @@ export default function Expertise() {
         </div>
         <figure className="image-layer">
           <img
-            src="https://res.cloudinary.com/dmdv8s9mz/image/upload/v1706791195/hydro-plan/fgiytwvbjz5xrhx8xmfk.png"
+            src="/assets/images/form.webp"
             alt=""
             style={{ width: "1000px", height: "667px" }}
           />
