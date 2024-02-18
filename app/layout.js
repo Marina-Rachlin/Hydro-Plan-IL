@@ -11,6 +11,7 @@ import "swiper/css/pagination";
 import "swiper/css/free-mode";
 import { inter, jost } from "@/lib/font";
 import Head from "next/head";
+import Script from "next/script";
 
 
 export const metadata = {
@@ -29,6 +30,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${jost.variable}`}>
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-M955VS30JE"></Script>
+<Script id="google-analytics" strategy="afterInteractive">
+        {`
+           window.dataLayer = window.dataLayer || [];
+           function gtag(){dataLayer.push(arguments);}
+           gtag('js', new Date());
+         
+           gtag('config', 'G-M955VS30JE');
+        `}
+      </Script>
       <body>{children}</body>
     </html>
   );
