@@ -13,7 +13,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <Script
+       {''}
+      </Head>
+      <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-M955VS30JE"
         ></Script>
@@ -26,7 +28,6 @@ export default function Home() {
            gtag('config', 'G-M955VS30JE');
         `}
         </Script>
-      </Head>
       <Layout headerStyle={1} footerStyle={1}>
         <Banner2 />
         <Features />
