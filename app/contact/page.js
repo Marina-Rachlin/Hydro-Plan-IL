@@ -153,9 +153,6 @@ export default function Home() {
                     <div className="rtl sec-title mb_35">
                       <span className="sub-title">הודעה</span>
                       <h2>לקבלת הצעת מחיר</h2>
-                      <p className="mt_20">
-                        מעוניינים בייעץ ללא עלות? השאירו פרטים עוד היום
-                      </p>
                     </div>
                   </div>
                 </div>
