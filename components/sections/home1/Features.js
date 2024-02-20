@@ -41,6 +41,7 @@ export default function Features() {
                             <div className="icon-box"><i className="icon-8"></i></div>
                             <h3><Link href="/green-construction">חוות דעת הידרולוגית לתקן בנייה ירוקה</Link></h3>
                             <p>חישוב ואימות הניקוד המתקבל בסעיף 3.4 בתקן בנייה ירוקה 5281</p>
+                            <p style={{visibility: 'hidden'}}>HHHHJ</p>
                             </div>
                         </div>
                         </div>
@@ -54,6 +55,7 @@ export default function Features() {
                             <div className="icon-box"><i className="icon-7"></i></div>
                             <h3><Link  href="/tofes_4">דו׳׳ח פיקוח עליון</Link></h3>
                             <p>ביקור באתר ובדיקת התאמה בין התוכנית ההידרולוגית ליישום, הפקת דוח פיקוח עליון </p>
+                            <p style={{visibility: 'hidden'}}>HHHHJ</p>
                             <p style={{visibility: 'hidden'}}>HHHHJ</p>
                             </div>
                         </div>
