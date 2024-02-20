@@ -75,7 +75,7 @@ export default function Expertise() {
                           <input
                             type="email"
                             name="email"
-                            placeholder="דו׳׳ל"
+                            placeholder="דוא׳׳ל"
                             required
                             value={formData.email}
                             onChange={handleChange}
@@ -111,19 +111,9 @@ export default function Expertise() {
                             onChange={handleChange}
                           />
                         </div>
-                        {/* <div className="col-lg-6 col-md-6 col-sm-12 form-group">
-                                                    <div className="select-box">
-                                                        <select className="selectmenu">
-                                                            <option value={1}>Tax Management</option>
-                                                            <option value={2}>Strategy & Planning</option>
-                                                            <option value={3}>Program Manager</option>
-                                                            <option value={4}>Investment Policy</option>
-                                                        </select>
-                                                    </div>
-                                                </div> */}
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                           <button type="submit" className="theme-btn-one">
-                            לקבל הצעת מחיר
+                            לקבל הצעת מחיר נוחה
                           </button>
                         </div>
                       </div>

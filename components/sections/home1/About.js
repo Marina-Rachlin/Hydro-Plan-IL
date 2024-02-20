@@ -41,7 +41,7 @@ export default function About() {
                       <div className="icon-box">
                         <i className="icon-11"></i>
                       </div>
-                      <h3>תפרושת ארצית</h3>
+                      <h3>פריסה ארצית</h3>
                       <p>
                         להידרו-פלאן רקורד מוכח בתפרוסת ארצית רחבה כולל אזור
                         יהודה ושומרון.
