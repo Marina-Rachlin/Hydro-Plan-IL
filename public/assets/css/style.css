@@ -3437,7 +3437,8 @@
 
   @media (max-width: 767px) {
     .service-details-content .content-four .download-list li button{
-      top: 74px;
+      top: 54px;
+      font-size: 12px;
     }
   }
 

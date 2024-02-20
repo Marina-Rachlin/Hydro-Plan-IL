@@ -21,7 +21,7 @@ export default function RootLayout({ children }) {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>"Hydro-Plan IL"</title>
-        <meta name="description" content="Hydro-Consulting provides expert hydrological and environmental consulting services. Our team of skilled professionals specializes in water resource management, hydrological modeling, green infrastructure, and sustainable development. From technical reports and hydraulic studies to regulatory compliance and water conservation strategies, we offer comprehensive solutions for projects ranging from urban planning to agricultural development. Trust Hydro-Consulting for innovative and environmentally conscious approaches to water-related challenges." />
+        <meta name="description" content="יעוץ הידרולוגי לתב''ע, נספח ניקוז, ניהול נגר להיתר, ניקוד בנייה ירוקה, פיקוח עליון לטופס 4" />
         <meta name="keywords"content='hydro-plan, נספח ניקוז ,פרשה טכנית ,ניהול נגר ,בנייה ירוקה  ,תמ׳׳א 62 ,תמ"א 1, פיקוח עליון, טופס 4, דוח הידרולוג, הצהרת הידרולוג, היתר, תב"ע, מנהל התכנון, רשות המים'/>
         <Script
           async
