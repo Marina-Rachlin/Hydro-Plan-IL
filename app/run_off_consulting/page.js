@@ -10,6 +10,7 @@ import SidebarNav from "@/components/elements/SidebarNav";
 import SidebarContact from "@/components/elements/SidebarContact";
 import "react-modal-video/css/modal-video.css";
 import Head from "next/head";
+import Script from "next/script";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);

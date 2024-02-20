@@ -60,8 +60,7 @@ export default function Expertise() {
               <div className="content_block_four">
                 <div className="content-box p_relative ml_30 mt_20 centred">
                   <h3>
-                    מחפשים יעוץ הידרולוגי? אשמח להגיש <br />
-                    הצעת מחיר
+                  לקבל הצעת מחיר נוחה
                   </h3>
                   <div className="form-inner">
                     <form
@@ -113,7 +112,7 @@ export default function Expertise() {
                         </div>
                         <div className="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
                           <button type="submit" className="theme-btn-one">
-                            לקבל הצעת מחיר נוחה
+                            לקבל הצעת מחיר 
                           </button>
                         </div>
                       </div>

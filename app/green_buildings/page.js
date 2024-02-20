@@ -4,6 +4,7 @@ import Layout from "@/components/layout/Layout";
 import SidebarContact from "@/components/elements/SidebarContact";
 import SidebarArticles from "@/components/elements/SidebarArticles";
 import Head from "next/head";
+import Script from "next/script";
 
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false);
