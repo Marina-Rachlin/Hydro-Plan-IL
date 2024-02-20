@@ -92,11 +92,6 @@ export default function Footer1() {
                     <i className="fab fa-linkedin-in"></i>
                       <Link href="https://www.linkedin.com/in/ofri-orgad-62382b63/">Linkedin</Link>
                       </li>
-                      <li>
-                    <i className="fab fa-instagram"></i>
-                      <Link href="https://www.instagram.com/hydro.plan.il/">Instagram</Link>
-                      </li>
-                      
                     </ul>
                   </div>
                 </div>

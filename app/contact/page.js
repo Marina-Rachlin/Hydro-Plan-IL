@@ -89,7 +89,7 @@ export default function Home() {
                       <div className="icon-box">
                         <i className="icon-49"></i>
                       </div>
-                      <h3>דו׳׳ל</h3>
+                      <h3>דוא"ל</h3>
                       <p>
                         <Link href="mailto:orgadofri@gmail.com">
                           orgadofri@gmail.com
@@ -164,7 +164,7 @@ export default function Home() {
                           <input
                             type="email"
                             name="email"
-                            placeholder="דו׳׳ל"
+                            placeholder="דוא׳׳ל"
                             required
                             value={formData.email}
                             onChange={handleChange}

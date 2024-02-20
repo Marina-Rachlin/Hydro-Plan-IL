@@ -77,7 +77,7 @@ export default function MobileMenu({
                       </Link>
                     </li>
                     <li>
-                      <Link href="/pikuah" onClick={handleMobileMenu}>
+                      <Link href="/tofes_4" onClick={handleMobileMenu}>
                         דו׳׳ח פיקוח עליון
                       </Link>
                     </li>
@@ -133,17 +133,6 @@ export default function MobileMenu({
                   onClick={handleMobileMenu}
                 >
                   <span className="fab fa-linkedin-in" />
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="https://www.instagram.com/hydro.plan.il/"
-                  onClick={handleMobileMenu}
-                >
-                  <span
-                    className="fab fa-instagram"
-                    style={{ marginTop: "2px" }}
-                  />
                 </Link>
               </li>
             </ul>

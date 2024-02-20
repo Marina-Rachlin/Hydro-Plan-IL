@@ -10,27 +10,42 @@ export default function Clients() {
                 <div className="inner-box">
                     <figure className="clients-logo">
                         <Link href="/index-3">
-                            <img src="/assets/images/client1.webp" alt="" />
+                            <img src="/assets/images/client1.webp" alt="client1" />
                         </Link>
                     </figure>
                     <figure className="clients-logo">
                         <Link href="/index-3">
-                            <img src="/assets/images/client2.webp" alt="" />
+                            <img src="/assets/images/client2.webp" alt="client2" />
                         </Link>
                     </figure>
                     <figure className="clients-logo">
                         <Link href="/index-3">
-                            <img src="/assets/images/client3.webp" alt="" />
+                            <img src="/assets/images/client3.webp" alt="client3" />
                         </Link>
                     </figure>
                     <figure className="clients-logo">
                         <Link href="/index-3">
-                            <img src="/assets/images/client4.webp" alt="" />
+                            <img src="/assets/images/client4.webp" alt="client4" />
                         </Link>
                     </figure>
                     <figure className="clients-logo">
                         <Link href="/index-3">
-                            <img src="/assets/images/client5.webp" alt="" />
+                            <img src="/assets/images/client5.webp" alt="client5" />
+                        </Link>
+                    </figure>
+                    <figure className="clients-logo">
+                        <Link href="/index-3">
+                            <img src="/assets/images/client7.webp" alt="client6" />
+                        </Link>
+                    </figure>
+                    <figure className="clients-logo">
+                        <Link href="/index-3">
+                            <img src="/assets/images/client8.webp" alt="client7" />
+                        </Link>
+                    </figure>
+                    <figure className="clients-logo">
+                        <Link href="/index-3">
+                            <img src="/assets/images/client6.webp" alt="client8" />
                         </Link>
                     </figure>
                 </div>

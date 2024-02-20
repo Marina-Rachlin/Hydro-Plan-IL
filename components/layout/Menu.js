@@ -10,7 +10,7 @@ export default function Menu() {
                     <ul>
                         <li><Link href="/run_off_consulting">מסמך ניהול נגר בשלב ההיתר</Link></li>
                         <li><Link href="/green-construction">חוות דעת הידרולוגית לתקן בנייה ירוקה</Link></li>
-                        <li><Link href="/pikuah">דו׳׳ח פיקוח עליון</Link></li>
+                        <li><Link href="/tofes_4">דו׳׳ח פיקוח עליון</Link></li>
                     </ul>
                 </li>
                 <li><Link href="/#about">אודות</Link></li>

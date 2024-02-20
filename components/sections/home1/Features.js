@@ -26,8 +26,8 @@ export default function Features() {
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-9"></i></div>
                             <h3><Link href="/run_off_consulting">מסמך ניהול נגר בשלב ההיתר</Link></h3>
-                            <p>שיפור יוזמות נדל"ן באמצעות תיעוד ניהול יעיל של נגר</p>
-                            <p style={{visibility: 'hidden'}}>hkjnlkml3</p>
+                            <p>
+כתיבת חוות דעת הידרולוגית העומדת בהנחיות רשות המים, מנהל התכנון והעיריות השונות לקבלת אישור בשלב ההיתר</p>
                             </div>
                         </div>
                         </div>
@@ -39,8 +39,8 @@ export default function Features() {
                             <figure className="image-box"><img src="/assets/images/green.webp" alt="" style={{maxHeight: '200px'}}/></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-8"></i></div>
-                            <h3><Link href="/">חוות דעת הידרולוגית לתקן בנייה ירוקה</Link></h3>
-                            <p>ליווי פרויקטים של בנייה ירוקה ואישורם במכון התקנים, לפי תקן 5281</p>
+                            <h3><Link href="/green-construction">חוות דעת הידרולוגית לתקן בנייה ירוקה</Link></h3>
+                            <p>חישוב ואימות הניקוד המתקבל בסעיף 3.4 בתקן בנייה ירוקה 5281</p>
                             </div>
                         </div>
                         </div>
@@ -52,9 +52,9 @@ export default function Features() {
                             <figure className="image-box" ><img src="/assets/images/pikuah.webp" alt=""  style={{maxHeight: '200px'}}/></figure>
                             <div className="lower-content">
                             <div className="icon-box"><i className="icon-7"></i></div>
-                            <h3><Link  href="/pikuah">דו׳׳ח פיקוח עליון</Link></h3>
-                            <p>יצירת דוח פיקוח עליון מעמיק למצוינות מקיפה של תובנה ופיקוח </p>
-                            <p style={{visibility: 'hidden'}}>hkjnlkml3</p>
+                            <h3><Link  href="/tofes_4">דו׳׳ח פיקוח עליון</Link></h3>
+                            <p>ביקור באתר ובדיקת התאמה בין התוכנית ההידרולוגית ליישום, הפקת דוח פיקוח עליון </p>
+                            <p style={{visibility: 'hidden'}}>HHHHJ</p>
                             </div>
                         </div>
                         </div>

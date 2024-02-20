@@ -18,7 +18,7 @@ const SidebarNav = ({current}) => {
         </Link>
       </li>
       <li>
-        <Link href="/pikuah" className={`${current === 'pikuah' ? 'current' : ''}`}>דו׳׳ח פיקוח עליון</Link>
+        <Link href="/tofes_4" className={`${current === 'tofes_4' ? 'current' : ''}`}>דו׳׳ח פיקוח עליון</Link>
       </li>
     </ul>
   </div>

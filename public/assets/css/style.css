@@ -1991,15 +1991,6 @@
   }
   
   
-  
-  
-  @media only screen and (max-width: 1599px){
-  
-    
-  
-  }
-  
-  
   @media only screen and (max-width: 1299px){
   
     .service-block-one .inner-box .shape{
@@ -2359,6 +2350,26 @@
   
     .clients-section .inner-box .clients-logo{
       margin-bottom: 15px;
+    }
+
+    /* .clients-section .inner-box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    } */
+
+    /* .clients-section .inner-box .clients-logo {
+      flex: 0 0 100%;
+      margin-bottom: 15px; 
+    } */
+    
+    @media (max-width: 767px) {
+      .clients-section .inner-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+      }
+     
     }
   
     .clients-section .inner-box .clients-logo:last-child{
@@ -3424,6 +3435,12 @@
     margin-bottom: 22px;
   }
 
+  @media (max-width: 767px) {
+    .service-details-content .content-four .download-list li button{
+      top: 74px;
+    }
+  }
+
 
 
   
@@ -3580,6 +3597,11 @@
 
 .disable-parallax {
   background-attachment: scroll !important; /* Override any 'fixed' background */
+}
+
+@media (max-width: 767px) {
+
+
 }
 
 
