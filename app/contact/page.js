@@ -40,7 +40,6 @@ export default function Home() {
 
   return (
     <>
-          <Head>
       <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-M955VS30JE"
@@ -54,7 +53,6 @@ export default function Home() {
            gtag('config', 'G-M955VS30JE');
         `}
         </Script>
-      </Head>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="צרו קשר">
         <div>
           {/* Feature Section */}
