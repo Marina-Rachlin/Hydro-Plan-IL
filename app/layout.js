@@ -13,17 +13,22 @@ import { inter, jost } from "@/lib/font";
 import Head from "next/head";
 import Script from "next/script";
 
+export const metadata = {
+  title: 'Hydro-Plan IL - יועץ הידרולוגי, ייעוץ והכנת נספח הידרולוגי וליווי מלא להיתר וטופס 4, עופרי אורגד',
+  description: 'Hydro-Plan IL - יועץ הידרולוגי, ייעוץ והכנת נספח הידרולוגי וליווי מלא להיתר וטופס 4, עופרי אורגד',
+  keywords: 'hydro-plan, עופרי אורגד, נספח ניקוז, פרשה טכנית עופרי, ניהול נגר, בנייה ירוקה, תמ׳׳א 62, תמ"א 1, פיקוח עליון, טופס 4, דוח הידרולוג, הצהרת הידרולוג, היתר, תב"ע, מנהל התכנון, רשות המים',
+};
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${inter.variable} ${jost.variable}`}>
-     <Head>
-  <meta charSet="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hydro-Plan IL</title>
-  <meta name="description" content="Hydro-Plan IL, עופרי אורגד" />
-  <meta name="keywords" content='hydro-plan, עופרי אורגד, נספח ניקוז ,פרשה טכנית עופרי ,ניהול נגר ,בנייה ירוקה  ,תמ׳׳א 62 ,תמ"א 1, פיקוח עליון, טופס 4, דוח הידרולוג, הצהרת הידרולוג, היתר, תב"ע, מנהל התכנון, רשות המים' />
-</Head>
+    <Head>
+        <meta charSet="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+      </Head>
       <Script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-M955VS30JE"
