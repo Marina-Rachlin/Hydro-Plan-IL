@@ -8,7 +8,7 @@ export default function Clients() {
         <section className="clients-section p_relative bg-color-2" id="clients">
         <div className="sec-title centred mb_50">
                     {/* <span className="sub-title">חדשות & מאמרים</span> */}
-                    <span className="sub-title" style={{color: '#7b7883'}}>בין לקוחותינו  </span>
+                    <span className="sub-title" >בין לקוחותינו  </span>
                     </div>
             <div className="auto-container">
                 <div className="inner-box">
