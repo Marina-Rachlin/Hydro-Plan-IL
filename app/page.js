@@ -16,8 +16,8 @@ export default function Home() {
   <meta charSet="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hydro-Plan IL</title>
-  <meta name="description" content="Hydro-Plan IL, עופרי אורגד" />
-  <meta name="keywords" content='hydro-plan, עופרי אורגד, נספח ניקוז ,פרשה טכנית עופרי ,ניהול נגר ,בנייה ירוקה  ,תמ׳׳א 62 ,תמ"א 1, פיקוח עליון, טופס 4, דוח הידרולוג, הצהרת הידרולוג, היתר, תב"ע, מנהל התכנון, רשות המים' />
+  <meta name="description" content="Hydro-Plan IL, עפרי אורגד" />
+  <meta name="keywords" content='hydro-plan, עפרי אורגד, נספח ניקוז ,פרשה טכנית עפרי ,ניהול נגר ,בנייה ירוקה  ,תמ׳׳א 62 ,תמ"א 1, פיקוח עליון, טופס 4, דוח הידרולוג, הצהרת הידרולוג, היתר, תב"ע, מנהל התכנון, רשות המים' />
 </Head>
       <Script
           async

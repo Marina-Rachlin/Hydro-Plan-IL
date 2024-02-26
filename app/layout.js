@@ -14,15 +14,15 @@ import Head from "next/head";
 import Script from "next/script";
 
 export const metadata = {
-  title: 'Hydro-Plan IL - ייועץ הידרולוגי, ייעוץ והכנת נספח הידרולוגי וליווי מלא להיתר וטופס 4, עופרי אורגד',
+  title: 'Hydro-Plan IL - ייעוץ הידרולוגי, ייעוץ והכנת נספח הידרולוגי וליווי מלא להיתר וטופס 4, עופרי אורגד',
   description: 'Hydro-Plan IL - ייועץ הידרולוגי, ייעוץ והכנת נספח הידרולוגי וליווי מלא להיתר וטופס 4, עופרי אורגד',
   keywords: [
-    'עופרי אורגד',
+    'עפרי אורגד',
     'Ofri Orgad',
     'hydro-plan',
     'עופרי אורגד',
     'נספח ניקוז',
-    'פרשה טכנית עופרי',
+    'פרשה טכנית עפרי',
     'ניהול נגר',
     'בנייה ירוקה',
     'תמ׳׳א 62',
@@ -36,9 +36,9 @@ export const metadata = {
     'מנהל התכנון',
     'רשות המים',
   ],
-  authors: [{ name: 'Ofri Orgad' }, { name: 'עופרי אורגד' }],
+  authors: [{ name: 'Ofri Orgad' }, { name: 'עפרי אורגד' }],
   creator: 'Marina Rachlin',
-  publisher: ['Ofri Orgad', 'עופרי אורגד'],
+  publisher: ['Ofri Orgad', 'עפרי אורגד'],
 
 };
 

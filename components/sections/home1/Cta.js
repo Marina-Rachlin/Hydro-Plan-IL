@@ -27,7 +27,7 @@ export default function Cta() {
                 <div className="auto-container">
                     <div className="inner-box" style={{direction: 'rtl'}}>
                         <h2>לשיחת ייעוץ ראשונית <span>חייגו עכשיו </span></h2>
-                        <h3 style={{direction:'ltr', textAlign: 'end'}}><Link href="tel:912136660027">053 498 6071</Link></h3>
+                        <h3 style={{direction:'ltr', textAlign: 'end'}}><Link href="tel:912136660027">+972-53-4986071</Link></h3>
                     </div>
                 </div>
             </section> 
